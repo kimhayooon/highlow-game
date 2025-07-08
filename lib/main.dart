@@ -26,7 +26,7 @@ class StartScreen extends StatelessWidget {
       backgroundColor: Colors.deepPurple[50],
       body: Center(
         child: ElevatedButton(
-          child: Text('🎲 하이로우 게임 시작!'),
+          child: Text('🎲 하이로우 게임 시작!'), //게임버튼
           style: ElevatedButton.styleFrom(
             padding: EdgeInsets.symmetric(horizontal: 40, vertical: 20),
             textStyle: TextStyle(fontSize: 24),
